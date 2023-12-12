@@ -107,5 +107,20 @@ var finances = [
     
       // Calculate total Profit/Losses
       netChange += profitLoss;
+    
+      // Calculate greatest increase and decrease
+    if (i > 0) {
+      const change = profitLoss - finances[i - 1]['Profit/Loss'];
+      totalChange += change;
+  
+      if (change > greatestIncrease.amount) {
+        greatestIncrease.amount = change;
+        greatestIncrease.date = finances[i]['Date'];
+      }
+      if (change < greatestDecrease.amount) {
+        greatestDecrease.amount = change;
+        greatestDecrease.date = finances[i]['Date'];
+      }
     }
   }
+}
