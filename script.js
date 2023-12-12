@@ -126,4 +126,12 @@ var finances = [
 
   // Calculate average change (totalmonths - 1 because change has to occur after first value)
   let averageChange = totalChange / (totalMonths - 1); 
+
+  return {
+    totalMonths,
+    netChange,
+    averageChange,
+    greatestIncrease,
+    greatestDecrease,
+  };
 }
