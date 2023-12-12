@@ -101,5 +101,11 @@ var finances = [
     let greatestIncrease = { amount: 0 };
     let greatestDecrease = { amount: 0 };
     let totalChange = 0;
-  }
     
+    for (let i = 0; i < finances.length; i++) {
+      const profitLoss = finances[i]['Profit/Loss'];
+    
+      // Calculate total Profit/Losses
+      netChange += profitLoss;
+    }
+  }
