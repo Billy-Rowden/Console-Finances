@@ -143,7 +143,7 @@ const analysisResult = analyzeFinancialData(finances);
 console.log("Financial Analysis")
 console.log("-------------------")
 console.log('Total Months: ' + analysisResult.totalMonths);
-console.log('Total:' + analysisResult.netChange);
-console.log('Average Change:'+ analysisResult.averageChange); // toFixed(2) displays the number to 2dp.
-console.log('Greatest Increase in Profit/Losses:', analysisResult.greatestIncrease.date, '('+ analysisResult.greatestIncrease.amount + ')');
-console.log('Greatest Decrease in Profit/Losses:', analysisResult.greatestDecrease.date, '('+ analysisResult.greatestDecrease.amount +')'); 
+console.log('Total: $' + analysisResult.netChange);
+console.log('Average Change: $'+ analysisResult.averageChange); // toFixed(2) displays the number to 2dp.
+console.log('Greatest Increase in Profit/Losses:', analysisResult.greatestIncrease.date, '($'+ analysisResult.greatestIncrease.amount + ')');
+console.log('Greatest Decrease in Profit/Losses:', analysisResult.greatestDecrease.date, '($'+ analysisResult.greatestDecrease.amount +')'); 
