@@ -53,8 +53,8 @@ Research on websites including W3Schools, MDN web docs and FreeCodeCamp viewing 
 
 ## Badges
 
-![badmath](https://img.shields.io/badge/Javascript-94.1-blue)
-![badmath](https://img.shields.io/badge/HTML-5.9-orange)
+![badmath](https://img.shields.io/badge/Javascript-93.7-blue)
+![badmath](https://img.shields.io/badge/HTML-6.3-orange)
 
 
 ## Features
