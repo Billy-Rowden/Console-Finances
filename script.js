@@ -87,3 +87,19 @@ var finances = [
   { 'Date': 'Feb-2017', 'Profit/Loss': 671099},
 ];
 
+// Variables:
+  // total number of months
+  // rolling total of profits
+  // greatest increase (month and amount)
+  // greatest decrease (Month and amount)
+  // average of the changes
+
+
+  function analyzeFinancialData(finances) {
+    let totalMonths = finances.length;
+    let netChange = 0;
+    let greatestIncrease = { amount: 0 };
+    let greatestDecrease = { amount: 0 };
+    let totalChange = 0;
+  }
+    
