@@ -135,3 +135,6 @@ var finances = [
     greatestDecrease,
   };
 }
+
+// Calling function and store the results in a variable
+const analysisResult = analyzeFinancialData(finances);
